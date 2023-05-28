@@ -1,0 +1,31 @@
+.spiderman{
+    background-color: rgb(43, 58, 87);
+    width: 7%;
+    align-items: flex-start;
+    float: left;
+    border-radius: 3px;
+    margin: 5px;
+}
+.div1{
+    background-color: lightskyblue;
+    padding: 10px;
+    align-content: safe;
+    border-radius: 1em;
+    margin: 15px;
+}
+.hulk{
+    background-color: rgb(43, 58, 87);
+    width: 9%;
+    align-items: flex-start;
+    float: right;
+    border-radius: 3px;
+    margin: 5px;
+}
+.pikachu{
+    background-color: rgb(43, 58, 87);
+    width: 9%;
+    align-items: flex-start;
+    float: left;
+    border-radius: 3px;
+    margin: 5px;
+}
