@@ -1,0 +1,96 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Body Styling */
+  body {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    color: #222;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  /* Heading Styling */
+  h1 {
+    font-size: 3rem; /* Increased size */
+    margin-bottom: 2rem;
+    color: #4a4a4a;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    letter-spacing: 1px;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Joke Box Styling */
+  .box {
+    padding: 30px; /* Increased padding */
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 120px;
+  }
+  
+  .box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .setup, .punchline {
+    font-size: 1.8rem; /* Increased font size */
+    margin: 0.8rem 0;
+    color: #333;
+  }
+  
+  /* Button Styling */
+  .btn {
+    padding: 15px 30px; /* Larger button */
+    font-size: 1.5rem;  /* Increased font size */
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(45deg, #ff758c, #ff7eb3);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(255, 118, 136, 0.3);
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 30px;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(45deg, #ff5e62, #ff9966);
+    box-shadow: 0 8px 20px rgba(255, 92, 109, 0.4);
+  }
+  
+  .btn:active {
+    transform: scale(0.95);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+    
+    .btn {
+      padding: 12px 24px;
+      font-size: 1.2rem;
+    }
+    
+    .box {
+      padding: 20px;
+    }
+  }
+  
